@@ -79,17 +79,20 @@ The `CartItem` model stores details about the quantity of each product to be add
    ## Screenshots
 
 ### Register Page 
-![Register Page](ScreenShots/Register.png)   
+![Register Page](DemoImages/Register.png)   
 
 ### Login Page 
-![Login Page](ScreenShots/Login.png)   
+![Login Page](DemoImages/Login.png)   
 
-### Customer Page 
-![Customer Page](ScreenShots/CustomerTable.png)  
-![Customer Page](ScreenShots/CustomerForm.png) 
+### Product 
+![Product](DemoImages/ProductList.png)  
+![Product](DemoImages/ProductDetail.png) 
+![Product](DemoImages/ProductListingWithLogin.png) 
+![Product](DemoImages/BackToHome.png) 
 
-### Transaction Page  
-![Transaction Page](ScreenShots/TransactionTable.png)  
+### AddToCart Alert  
+![AddToCart Alert](DemoImages/ItemAddedAlert.png)  
+![AddToCart Alert](DemoImages/NotAddedAlert.png)  
 
 
 
