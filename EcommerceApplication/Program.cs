@@ -8,10 +8,10 @@ namespace EcommerceApplication
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            var connectionString = builder.Configuration.GetConnectionString("SqlServerConnection") ??
-                throw new InvalidOperationException("Connection string 'SqlServerConnection' not found.");
+            //var connectionString = builder.Configuration.GetConnectionString("SqlServerConnection") ??
+            //    throw new InvalidOperationException("Connection string 'SqlServerConnection' not found.");
 
-            builder.Services.AddDbContext<EcommerceApplicationDbContext>(options => options.UseSqlServer(connectionString));
+            builder.Services.AddDbContext<EcommerceApplicationDbContext>(options => options.UseInMemoryDatabase("InMemoryDb"));
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<EcommerceApplicationDbContext>()

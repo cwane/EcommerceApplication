@@ -14,11 +14,16 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.11" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\EcommerceApplication.BLL\EcommerceApplication.BLL.csproj" />
+	  <Folder Include="wwwroot\Images\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\EcommerceApplication.DAL\EcommerceApplication.DAL.csproj" />
 	</ItemGroup>
 
 </Project>
