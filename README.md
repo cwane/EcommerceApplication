@@ -60,7 +60,34 @@ The `CartItem` model stores details about the quantity of each product to be add
 2. Install **SQL Server**.
 3. Install **Visual Studio 2022** or higher.
 
-   
+### Steps to Run the Project
+
+1. **Clone the Repository**:
+   Open your terminal or command prompt and run the following command:
+   ```bash
+   git clone https://github.com/cwane/EcommerceApplication.git
+   cd EcommerceApplication
+ 2. **Restore Dependencies**:
+     dotnet restore
+
+ 3. **Run Application**:
+     dotnet run
+
+      
+   ## Screenshots
+
+### Register Page 
+![Register Page](ScreenShots/Register.png)   
+
+### Login Page 
+![Login Page](ScreenShots/Login.png)   
+
+### Customer Page 
+![Customer Page](ScreenShots/CustomerTable.png)  
+![Customer Page](ScreenShots/CustomerForm.png) 
+
+### Transaction Page  
+![Transaction Page](ScreenShots/TransactionTable.png)  
 
 
 
