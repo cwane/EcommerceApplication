@@ -68,9 +68,11 @@ The `CartItem` model stores details about the quantity of each product to be add
    git clone https://github.com/cwane/EcommerceApplication.git
    cd EcommerceApplication
  2. **Restore Dependencies**:
+     ```bash
      dotnet restore
 
  3. **Run Application**:
+    ```bash
      dotnet run
 
       
