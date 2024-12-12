@@ -13,7 +13,7 @@ namespace EcommerceApplication
 
             builder.Services.AddDbContext<EcommerceApplicationDbContext>(options => options.UseInMemoryDatabase("InMemoryDb"));
 
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddEntityFrameworkStores<EcommerceApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
